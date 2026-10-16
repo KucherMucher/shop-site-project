@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Lightweight Running Visor, detail">
+<rect width="800" height="600" fill="#F2C200"/>
+<circle cx="640" cy="120" r="200" fill="#14181B" opacity="0.10"/>
+<g transform="translate(250 400) scale(13) translate(-24 -24)" fill="none" stroke="#14181B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 38v-8l8-14 6 4 4-2 8 10h10a4 4 0 0 1 4 4v6z"/></g>
+<text x="32" y="56" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#14181B">Lightweight Running Visor</text>
+<text x="32" y="570" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#14181B" opacity="0.8">Placeholder photo 3 of 3</text>
+</svg>

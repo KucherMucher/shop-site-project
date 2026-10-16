@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Electrolyte Tablets, front view">
+<rect width="800" height="600" fill="#0A7C8C"/>
+<circle cx="620" cy="140" r="170" fill="#FFFFFF" opacity="0.10"/>
+<g transform="translate(400 290) scale(7) translate(-24 -24)" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M24 6c8 10 12 16 12 22a12 12 0 0 1-24 0c0-6 4-12 12-22z"/></g>
+<text x="32" y="56" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">Electrolyte Tablets</text>
+<text x="32" y="570" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#FFFFFF" opacity="0.8">Placeholder photo 1 of 3</text>
+</svg>

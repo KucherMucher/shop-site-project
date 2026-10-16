@@ -66,7 +66,10 @@ switch ($sort) {
         }
 }
 
-$sql = 'SELECT p.id, p.name, p.brand, p.description, p.price, p.sale_price, p.stock,
+// Stock is the sum over the product's variants. The cover photo is the first image.
+$sql = 'SELECT p.id, p.name, p.brand, p.description, p.price, p.sale_price,
+               COALESCE((SELECT SUM(v.stock) FROM product_variants v WHERE v.product_id = p.id), 0) AS stock,
+               (SELECT i.path FROM product_images i WHERE i.product_id = p.id ORDER BY i.sort_order, i.id LIMIT 1) AS image,
                c.slug AS category_slug, c.name AS category_name
         FROM products p
         JOIN categories c ON c.id = p.category_id'
@@ -85,6 +88,7 @@ try {
         'price'         => (float) $r['price'],
         'sale_price'    => $r['sale_price'] !== null ? (float) $r['sale_price'] : null,
         'stock'         => (int) $r['stock'],
+        'image'         => $r['image'],
         'category_slug' => $r['category_slug'],
         'category_name' => $r['category_name'],
     ], $stmt->fetchAll());
