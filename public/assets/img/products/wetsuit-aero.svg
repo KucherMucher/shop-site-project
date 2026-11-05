@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="640" height="640" role="img">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#e8f3ff"/><stop offset="1" stop-color="#cfe4fb"/>
+  </linearGradient>
+  <linearGradient id="obj" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="var(--a)"/><stop offset="1" stop-color="var(--b)"/>
+  </linearGradient>
+  <filter id="sh" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="22" stdDeviation="20" flood-color="#062a4d" flood-opacity=".18"/>
+  </filter>
+  <radialGradient id="glow" cx=".5" cy=".4" r=".6">
+    <stop offset="0" stop-color="#ffffff" stop-opacity=".85"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+  <style>:root{--a:#0b2a4a;--b:#0b6bff;}</style>
+</defs>
+<rect width="640" height="640" fill="url(#bg)"/>
+<circle cx="320" cy="300" r="250" fill="url(#glow)"/>
+<path d="M0 560 Q160 520 320 552 T640 540 V640 H0Z" fill="#ffffff" opacity=".26"/>
+<ellipse cx="320" cy="548" rx="185" ry="26" fill="#062a4d" opacity=".10"/><g transform="translate(0,0)" class="object">
+  <path d="M257 176 Q282 156 320 156 Q358 156 383 176 L415 214 L465 318 Q472 336 454 345 L431 352 Q418 356 411 339 L382 274 L390 470 L355 548 Q349 562 334 560 L312 556 Q299 554 303 538 L323 444 L317 444 L337 538 Q341 554 328 556 L306 560 Q291 562 285 548 L250 470 L258 274 L229 339 Q222 356 209 352 L186 345 Q168 336 175 318 L225 214 Z" fill="url(#obj)" filter="url(#sh)"/>
+  <path d="M320 160 L320 548" stroke="#ffffff" stroke-opacity=".22" stroke-width="4"/>
+  <path d="M321 176 L321 430" stroke="#e9f4ff" stroke-opacity=".85" stroke-width="5" stroke-dasharray="5 6"/>
+  <path d="M245 246 L395 246" stroke="#ffffff" stroke-opacity=".38" stroke-width="14"/>
+  <path d="M252 270 L388 270" stroke="#ffffff" stroke-opacity=".20" stroke-width="5"/>
+  <text x="465" y="235" font-family="Arial" font-size="20" font-weight="700" fill="#fff" opacity=".55" transform="rotate(90 465 235)">AERO 3.8</text>
+</g></svg>

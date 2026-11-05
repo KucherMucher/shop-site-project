@@ -1,0 +1,36 @@
+# ---------------------------------------------------------------
+# TRIVEX — ficheiros locais e artefactos
+# ---------------------------------------------------------------
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+
+# Dependências (o projeto não usa Composer em runtime)
+/vendor/
+/node_modules/
+
+# Conteúdo gerado em runtime
+/storage/mail/*
+!/storage/mail/.gitkeep
+/storage/logs/*
+!/storage/logs/.gitkeep
+/storage/cache/*
+!/storage/cache/.gitkeep
+/storage/sessions/*
+!/storage/sessions/.gitkeep
+*.log
+
+# Uploads de empresas (mantém apenas o marcador da pasta)
+/public/assets/img/uploads/*
+!/public/assets/img/uploads/.gitkeep
+
+# Ferramentas e sistema
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo

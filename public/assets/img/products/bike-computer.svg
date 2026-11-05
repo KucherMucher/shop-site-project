@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="640" height="640" role="img">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#edf3fa"/><stop offset="1" stop-color="#d6e3f0"/>
+  </linearGradient>
+  <linearGradient id="obj" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="var(--a)"/><stop offset="1" stop-color="var(--b)"/>
+  </linearGradient>
+  <filter id="sh" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="22" stdDeviation="20" flood-color="#062a4d" flood-opacity=".18"/>
+  </filter>
+  <radialGradient id="glow" cx=".5" cy=".4" r=".6">
+    <stop offset="0" stop-color="#ffffff" stop-opacity=".85"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+  <style>:root{--a:#151b25;--b:#0b6bff;}</style>
+</defs>
+<rect width="640" height="640" fill="url(#bg)"/>
+<circle cx="320" cy="300" r="250" fill="url(#glow)"/>
+<path d="M0 560 Q160 520 320 552 T640 540 V640 H0Z" fill="#ffffff" opacity=".26"/>
+<ellipse cx="320" cy="548" rx="185" ry="26" fill="#062a4d" opacity=".10"/><g filter="url(#sh)">
+  <rect x="176" y="170" width="288" height="340" rx="46" fill="#151b25"/>
+  <rect x="196" y="194" width="248" height="292" rx="30" fill="#0b2a4a"/>
+  <path d="M228 402 Q264 350 296 370 T356 318 T406 336" fill="none" stroke="#4fe0ff" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="406" cy="336" r="8" fill="#ff5a3c"/>
+  <text x="232" y="272" font-family="Arial" font-size="46" font-weight="800" fill="#ffffff">34.2</text>
+  <text x="234" y="298" font-family="Arial" font-size="15" fill="#8ad4ff" letter-spacing="2">KM/H</text>
+  <text x="232" y="350" font-family="Arial" font-size="17" fill="#ffffff" opacity=".7">128 bpm</text>
+  <text x="232" y="378" font-family="Arial" font-size="17" fill="#ffffff" opacity=".5">12.4 km</text>
+  <rect x="232" y="430" width="72" height="28" rx="14" fill="#0b6bff"/>
+  <text x="248" y="450" font-family="Arial" font-size="14" font-weight="700" fill="#fff">LAP</text>
+  <rect x="316" y="430" width="72" height="28" rx="14" fill="#ffffff" opacity=".12"/>
+  <circle cx="320" cy="526" r="10" fill="#0b6bff"/>
+</g></svg>

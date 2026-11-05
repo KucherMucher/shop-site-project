@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="640" height="640" role="img">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#fff7ec"/><stop offset="1" stop-color="#ffe6c7"/>
+  </linearGradient>
+  <linearGradient id="obj" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="var(--a)"/><stop offset="1" stop-color="var(--b)"/>
+  </linearGradient>
+  <filter id="sh" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="22" stdDeviation="20" flood-color="#062a4d" flood-opacity=".18"/>
+  </filter>
+  <radialGradient id="glow" cx=".5" cy=".4" r=".6">
+    <stop offset="0" stop-color="#ffffff" stop-opacity=".85"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+  <style>:root{--a:#ff8a3d;--b:#0b2a4a;}</style>
+</defs>
+<rect width="640" height="640" fill="url(#bg)"/>
+<circle cx="320" cy="300" r="250" fill="url(#glow)"/>
+<path d="M0 560 Q160 520 320 552 T640 540 V640 H0Z" fill="#ffffff" opacity=".26"/>
+<ellipse cx="320" cy="548" rx="185" ry="26" fill="#062a4d" opacity=".10"/><g filter="url(#sh)">
+  <path d="M204 228 L436 228 L420 506 Q418 534 390 534 L250 534 Q222 534 220 506Z" fill="url(#obj)"/>
+  <ellipse cx="320" cy="228" rx="116" ry="34" fill="#ffb37a"/>
+  <ellipse cx="320" cy="222" rx="98" ry="24" fill="#0b2a4a" opacity=".88"/>
+  <rect x="206" y="304" width="228" height="150" fill="#ffffff" opacity=".94"/>
+  <text x="232" y="348" font-family="Arial" font-size="24" font-weight="800" fill="#0b2a4a">ENDURANCE</text>
+  <text x="232" y="378" font-family="Arial" font-size="15" font-weight="700" fill="#ff8a3d" letter-spacing="2">ISOTONIC MIX</text>
+  <text x="232" y="414" font-family="Arial" font-size="15" fill="#6b7785">1 kg · 40 doses</text>
+  <path d="M232 436 h120" stroke="#0b6bff" stroke-width="6" stroke-linecap="round"/>
+  <path d="M320 120 Q380 150 390 220" fill="none" stroke="#ffd166" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="320" cy="112" r="20" fill="#ffd166"/>
+</g></svg>

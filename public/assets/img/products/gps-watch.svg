@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="640" height="640" role="img">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#eef2f7"/><stop offset="1" stop-color="#d8e0ea"/>
+  </linearGradient>
+  <linearGradient id="obj" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="var(--a)"/><stop offset="1" stop-color="var(--b)"/>
+  </linearGradient>
+  <filter id="sh" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="22" stdDeviation="20" flood-color="#062a4d" flood-opacity=".18"/>
+  </filter>
+  <radialGradient id="glow" cx=".5" cy=".4" r=".6">
+    <stop offset="0" stop-color="#ffffff" stop-opacity=".85"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+  <style>:root{--a:#2d3743;--b:#0b6bff;}</style>
+</defs>
+<rect width="640" height="640" fill="url(#bg)"/>
+<circle cx="320" cy="300" r="250" fill="url(#glow)"/>
+<path d="M0 560 Q160 520 320 552 T640 540 V640 H0Z" fill="#ffffff" opacity=".26"/>
+<ellipse cx="320" cy="548" rx="185" ry="26" fill="#062a4d" opacity=".10"/><g filter="url(#sh)">
+  <path d="M264 156 L376 156 L392 264 L248 264Z" fill="#2d3743"/>
+  <path d="M248 432 L392 432 L376 540 L264 540Z" fill="#2d3743"/>
+  <path d="M250 196 L390 196 M246 226 L394 226" stroke="#7a8794" stroke-width="4" stroke-opacity=".5"/>
+  <path d="M250 482 L390 482 M254 512 L386 512" stroke="#7a8794" stroke-width="4" stroke-opacity=".5"/>
+  <rect x="188" y="236" width="264" height="232" rx="58" fill="#3a4654"/>
+  <rect x="206" y="252" width="228" height="200" rx="44" fill="#0a0f15"/>
+  <circle cx="320" cy="352" r="72" fill="none" stroke="#4fe0ff" stroke-width="4" opacity=".45"/>
+  <circle cx="320" cy="352" r="84" fill="none" stroke="#4fe0ff" stroke-width="2" stroke-dasharray="2 10" opacity=".7"/>
+  <path d="M320 352 L320 300" stroke="#ffffff" stroke-width="7" stroke-linecap="round"/>
+  <path d="M320 352 L362 376" stroke="#0b6bff" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="320" cy="352" r="7" fill="#ff5a3c"/>
+  <text x="282" y="288" font-family="Arial" font-size="14" fill="#8ad4ff" letter-spacing="2">S9</text>
+  <rect x="412" y="314" width="18" height="58" rx="8" fill="#7a8794"/>
+  <circle cx="490" cy="410" r="12" fill="#ff5a3c"/>
+</g></svg>

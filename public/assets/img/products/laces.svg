@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="640" height="640" role="img">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#f2f5f9"/><stop offset="1" stop-color="#dfe6ef"/>
+  </linearGradient>
+  <linearGradient id="obj" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="var(--a)"/><stop offset="1" stop-color="var(--b)"/>
+  </linearGradient>
+  <filter id="sh" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="22" stdDeviation="20" flood-color="#062a4d" flood-opacity=".18"/>
+  </filter>
+  <radialGradient id="glow" cx=".5" cy=".4" r=".6">
+    <stop offset="0" stop-color="#ffffff" stop-opacity=".85"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+  <style>:root{--a:#0b6bff;--b:#ffd166;}</style>
+</defs>
+<rect width="640" height="640" fill="url(#bg)"/>
+<circle cx="320" cy="300" r="250" fill="url(#glow)"/>
+<path d="M0 560 Q160 520 320 552 T640 540 V640 H0Z" fill="#ffffff" opacity=".26"/>
+<ellipse cx="320" cy="548" rx="185" ry="26" fill="#062a4d" opacity=".10"/><g filter="url(#sh)">
+  <path d="M150 300 Q220 190 310 250 T480 240" fill="none" stroke="#0b6bff" stroke-width="20" stroke-linecap="round"/>
+  <path d="M150 360 Q230 460 330 390 T490 400" fill="none" stroke="#ffd166" stroke-width="20" stroke-linecap="round"/>
+  <path d="M170 270 L198 300 M202 238 L230 268 M418 220 L446 250" stroke="#0b2a4a" stroke-width="8" stroke-linecap="round"/>
+  <rect x="420" y="230" width="64" height="46" rx="16" fill="#151b25"/>
+  <rect x="436" y="246" width="32" height="14" rx="7" fill="#0b6bff"/>
+  <path d="M470 430 Q500 400 488 360" fill="none" stroke="#0b2a4a" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="492" cy="352" r="12" fill="#ff5a3c"/>
+  <path d="M140 410 L170 380 M152 452 L182 422" stroke="#0b2a4a" stroke-width="8" stroke-linecap="round"/>
+</g></svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="640" height="640" role="img">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#fff2ec"/><stop offset="1" stop-color="#ffdccd"/>
+  </linearGradient>
+  <linearGradient id="obj" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="var(--a)"/><stop offset="1" stop-color="var(--b)"/>
+  </linearGradient>
+  <filter id="sh" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="22" stdDeviation="20" flood-color="#062a4d" flood-opacity=".18"/>
+  </filter>
+  <radialGradient id="glow" cx=".5" cy=".4" r=".6">
+    <stop offset="0" stop-color="#ffffff" stop-opacity=".85"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+  <style>:root{--a:#0b2a4a;--b:#ff5a3c;}</style>
+</defs>
+<rect width="640" height="640" fill="url(#bg)"/>
+<circle cx="320" cy="300" r="250" fill="url(#glow)"/>
+<path d="M0 560 Q160 520 320 552 T640 540 V640 H0Z" fill="#ffffff" opacity=".26"/>
+<ellipse cx="320" cy="548" rx="185" ry="26" fill="#062a4d" opacity=".10"/><g filter="url(#sh)">
+  <path d="M138 420 Q140 366 196 344 L290 310 Q340 292 366 250 Q382 226 406 238 Q432 252 434 292 L436 348 Q506 368 528 416 Q536 444 508 460 L184 460 Q144 456 138 420Z" fill="url(#obj)"/>
+  <path d="M130 436 Q320 402 540 432 L540 468 Q540 496 504 496 L170 496 Q134 492 130 462Z" fill="#f8fbff"/>
+  <path d="M134 468 Q320 440 536 466" fill="none" stroke="#0b2a4a" stroke-opacity=".25" stroke-width="4"/>
+  <path d="M252 334 Q314 326 372 300" fill="none" stroke="#ffffff" stroke-opacity=".65" stroke-width="8" stroke-linecap="round"/>
+  <path d="M262 362 Q330 350 394 318" fill="none" stroke="#ffffff" stroke-opacity=".35" stroke-width="7" stroke-linecap="round"/>
+  <path d="M280 320 L314 348 M314 310 L348 338 M348 300 L382 326" stroke="#ffffff" stroke-opacity=".8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M420 370 Q474 388 498 424" fill="none" stroke="#ff5a3c" stroke-width="10" stroke-linecap="round"/>
+  <path d="M410 270 Q424 280 426 300" fill="none" stroke="#0b2a4a" stroke-opacity=".3" stroke-width="6"/>
+</g></svg>

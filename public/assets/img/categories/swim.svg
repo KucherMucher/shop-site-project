@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" width="800" height="640" role="img">
+<defs>
+  <linearGradient id="cg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#062a4d"/><stop offset="1" stop-color="#0b6bff"/>
+  </linearGradient>
+  <radialGradient id="cglow" cx=".75" cy=".3" r=".7">
+    <stop offset="0" stop-color="#ffffff" stop-opacity=".16"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect width="800" height="640" fill="url(#cg)"/>
+<circle cx="600" cy="190" r="320" fill="url(#cglow)"/>
+<g opacity=".18" stroke="#fff" stroke-width="1">
+  <path d="M0 480 L800 300 M0 540 L800 360 M0 600 L800 420"/>
+  <path d="M100 0 L400 640 M300 0 L600 640 M500 0 L800 640"/>
+</g>
+<g><path d="M80 430 Q200 340 330 400 Q450 456 570 390" fill="none" stroke="#fff" stroke-width="14" stroke-linecap="round"/><circle cx="560" cy="368" r="24" fill="#4fe0ff"/><path d="M470 404 Q530 448 590 424" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round"/><path d="M40 520 Q160 480 280 512 T520 508 T760 496" fill="none" stroke="#8ad4ff" stroke-opacity=".35" stroke-width="6"/></g>
+<text x="56" y="92" font-family="Arial" font-size="15" font-weight="700" fill="#8ad4ff" letter-spacing="6">TRIVEX</text>
+<text x="56" y="570" font-family="Arial" font-size="62" font-weight="800" fill="#ffffff" letter-spacing="1">NATAÇÃO</text>
+<text x="58" y="606" font-family="Arial" font-size="16" font-weight="700" fill="#8ad4ff" letter-spacing="8">SWIM</text>
+<path d="M56 540 L160 540" stroke="#ff5a3c" stroke-width="6" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,28 @@
+# TRIVEX — pretty URLs
+Options -Indexes
+DirectoryIndex public/index.php
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # Serve static assets from /public without exposing the folder in URLs
+    RewriteRule ^assets/(.*)$ public/assets/$1 [L]
+    RewriteRule ^uploads/(.*)$ public/uploads/$1 [L]
+
+    # Existing files/directories are served directly
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+
+    # Everything else goes to the front controller
+    RewriteRule ^ public/index.php [L]
+</IfModule>
+
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+</IfModule>
+
+<FilesMatch "^(\.env|composer\.(json|lock)|README\.md)$">
+    Require all denied
+</FilesMatch>

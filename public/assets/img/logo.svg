@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="TRIVEX">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#062a4d"/>
+      <stop offset="1" stop-color="#0b3f70"/>
+    </linearGradient>
+    <linearGradient id="tri" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4fe0ff"/>
+      <stop offset="1" stop-color="#0b6bff"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <path d="M32 10 56 50H32Z" fill="url(#tri)"/>
+  <path d="M32 10 8 50h24Z" fill="#ffffff"/>
+  <path d="M22 50h20L32 31Z" fill="#ff5a3c"/>
+</svg>

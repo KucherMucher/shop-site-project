@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="640" height="640" role="img">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#fbfff0"/><stop offset="1" stop-color="#e9f6c9"/>
+  </linearGradient>
+  <linearGradient id="obj" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="var(--a)"/><stop offset="1" stop-color="var(--b)"/>
+  </linearGradient>
+  <filter id="sh" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="22" stdDeviation="20" flood-color="#062a4d" flood-opacity=".18"/>
+  </filter>
+  <radialGradient id="glow" cx=".5" cy=".4" r=".6">
+    <stop offset="0" stop-color="#ffffff" stop-opacity=".85"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+  <style>:root{--a:#d6f35a;--b:#3d5a1e;}</style>
+</defs>
+<rect width="640" height="640" fill="url(#bg)"/>
+<circle cx="320" cy="300" r="250" fill="url(#glow)"/>
+<path d="M0 560 Q160 520 320 552 T640 540 V640 H0Z" fill="#ffffff" opacity=".26"/>
+<ellipse cx="320" cy="548" rx="185" ry="26" fill="#062a4d" opacity=".10"/><g filter="url(#sh)" transform="rotate(-8 320 330)">
+  <path d="M232 174 L408 174 L432 226 L432 500 Q432 532 400 532 L240 532 Q208 532 208 500 L208 226Z" fill="url(#obj)"/>
+  <path d="M232 174 L408 174 L400 148 L240 148Z" fill="#c5e94f"/>
+  <path d="M240 148 L248 120 L400 120 L408 148Z" fill="#f4fbdf"/>
+  <rect x="208" y="288" width="224" height="132" fill="#ffffff"/>
+  <text x="234" y="332" font-family="Arial" font-size="24" font-weight="800" fill="#3d5a1e">HYDRO</text>
+  <text x="234" y="362" font-family="Arial" font-size="15" font-weight="700" fill="#3d5a1e" letter-spacing="2">ENERGY GEL</text>
+  <text x="234" y="396" font-family="Arial" font-size="16" fill="#6a7a51">30 g carbs</text>
+  <circle cx="396" cy="388" r="20" fill="#3d5a1e"/>
+  <path d="M388 388 h16 M396 380 v16" stroke="#d6f35a" stroke-width="3"/>
+  <path d="M208 500 L432 500" stroke="#3d5a1e" stroke-opacity=".2" stroke-width="3"/>
+</g></svg>

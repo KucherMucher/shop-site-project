@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="640" height="640" role="img">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#eaf4ff"/><stop offset="1" stop-color="#cfe3f7"/>
+  </linearGradient>
+  <linearGradient id="obj" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="var(--a)"/><stop offset="1" stop-color="var(--b)"/>
+  </linearGradient>
+  <filter id="sh" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="22" stdDeviation="20" flood-color="#062a4d" flood-opacity=".18"/>
+  </filter>
+  <radialGradient id="glow" cx=".5" cy=".4" r=".6">
+    <stop offset="0" stop-color="#ffffff" stop-opacity=".85"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+  
+</defs>
+<rect width="640" height="640" fill="url(#bg)"/>
+<circle cx="320" cy="300" r="250" fill="url(#glow)"/>
+<path d="M0 560 Q160 520 320 552 T640 540 V640 H0Z" fill="#ffffff" opacity=".26"/>
+<ellipse cx="320" cy="548" rx="185" ry="26" fill="#062a4d" opacity=".10"/><g transform="translate(320 310) rotate(-24)">
+  <rect x="-190" y="-150" width="380" height="300" rx="60" fill="url(#obj)" filter="url(#sh)"/>
+  <path d="M-170 -120 Q0 -40 170 -120 M-170 -70 Q0 10 170 -70 M-170 -20 Q0 60 170 -20 M-170 30 Q0 110 170 30 M-170 80 Q0 160 170 80" fill="none" stroke="#ffffff" stroke-opacity=".18" stroke-width="3"/>
+  <path d="M-140 60 Q-40 20 50 70 T160 40" fill="none" stroke="#ffffff" stroke-opacity=".6" stroke-width="2" stroke-dasharray="6 7"/>
+  <circle cx="-120" cy="160" r="46" fill="#062a4d" opacity=".15"/>
+</g>
+<g transform="translate(0 540)">
+  <circle cx="250" cy="0" r="18" fill="#0b6bff"/>
+  <circle cx="300" cy="0" r="18" fill="#0b2a4a"/>
+  <circle cx="350" cy="0" r="18" fill="#ffffff" stroke="#0b2a4a" stroke-opacity=".3"/>
+  <text x="392" y="6" font-family="Arial" font-size="14" font-weight="700" fill="#0b2a4a" letter-spacing="3">PREMIUM BUILD</text>
+</g></svg>
